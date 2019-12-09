@@ -1,5 +1,5 @@
 h1 {
-    font-size: 4em;;
+    font-size: 4em;
     padding: 16% 0 0 10%; 
     text-shadow: -3px 3px 2px #BCF5A9;
     animation: animationTitre ease 2.5s;
@@ -34,25 +34,30 @@ header {
 }
 
 /* **************** PARTIE DE GAUCHE ******************* */
-div.col-lg-9.container {
+#partieDeGauche {
     background-color: #BCF5A9;
     border-radius: 20px;
-    padding: 20px;
+    padding-right: 20px;
 }
-
 .photosGauche {
+  display: flex;
+  max-width: 100%;
+  height: auto;
     border-radius: 50%;
-    padding-left: 4%;
+    text-align: center;
+    padding-top: 30px;
 }
-.vignetteGauche {
-    padding-top: 8%;
+.col-lg-9 button {
+  margin-bottom: 40px;
 }
-.texte {
-    padding-top: 27%;
+@media screen and (max-width: 600px) {
+  .photosGauche {
+    display: none;
+  }
 }
 
 /* ******************* PARTIE DROITE ********************** */
-div.d-none.d-sm-block.col-lg-3.container {
+#partieDeDroite {
     background-color: #524A3A;
     border-radius: 20px;
     padding: 20px;
@@ -154,6 +159,15 @@ div.d-none.d-sm-block.col-lg-3.container {
 #newsletter .input-group {
     width: 40%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 750px) {
+    #newsletter h4 {
+        font-size: 1.5em;
+    }
+    #newsletter .input-group {
+        width: 75%;
+    }
 }
 
 footer {
