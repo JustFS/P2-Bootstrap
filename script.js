@@ -17,13 +17,4 @@
           });
       });
   });
-
-  $(document).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y > 800) {
-      $('.newsletter').fadeIn();
-    } else {
-      $('.newsletter').fadeOut();
-    }
-  });
     }(jQuery));
