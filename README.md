@@ -1,2 +1,5 @@
-Spécifique Bootstrap
-+HTML+CSS+jQuery
+### Projet Bootstrap
+
+* HTML
+* CSS
+* jQuery
