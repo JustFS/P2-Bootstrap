@@ -1,5 +1,3 @@
 ### Projet Bootstrap
 
-* HTML
-* CSS
-* jQuery
+Créer un site `responsive`.
